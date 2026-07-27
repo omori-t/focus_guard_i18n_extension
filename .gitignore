@@ -1,0 +1,9 @@
+# Local multilingual test builds (not for publish)
+test_en/
+test_es/
+test_pt/
+test_id/
+test_ja/
+
+.DS_Store
+*.zip

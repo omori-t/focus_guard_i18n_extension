@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "FocusGuard - Ubah Waktu Medsos Menjadi Pengembangan Diri"
+  },
+  "appDesc": {
+    "message": "Memberikan jeda saat membuka medsos dan menampilkan saran investasi diri."
+  },
+  "badgeText": {
+    "message": "SARAN FOKUS AI"
+  },
+  "btnReturn": {
+    "message": "Kembali Bekerja / Belajar"
+  },
+  "btnContinue": {
+    "message": "Lanjutkan ke Medsos"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "FocusGuard - Convierte el tiempo de redes en crecimiento"
+  },
+  "appDesc": {
+    "message": "Añade una pausa consciente al acceder a redes sociales y muestra consejos de automejora."
+  },
+  "badgeText": {
+    "message": "CONSEJO DE CONCENTRACIÓN AI"
+  },
+  "btnReturn": {
+    "message": "Volver al trabajo / estudio"
+  },
+  "btnContinue": {
+    "message": "Continuar a la red social"
+  }
+}

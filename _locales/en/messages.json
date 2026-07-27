@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "FocusGuard - Turn SNS Time into Self-Growth"
+  },
+  "appDesc": {
+    "message": "Adds a mindful pause when accessing SNS, replacing scroll habits with self-investment advice."
+  },
+  "badgeText": {
+    "message": "AI FOCUS ADVICE"
+  },
+  "btnReturn": {
+    "message": "Back to Work / Study Now"
+  },
+  "btnContinue": {
+    "message": "Continue to SNS"
+  }
+}

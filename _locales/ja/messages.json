@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "FocusGuard - SNSを自己投資の時間へ"
+  },
+  "appDesc": {
+    "message": "無意識なSNSアクセス時にワンクッション置き、自己投資メッセージを表示します。"
+  },
+  "badgeText": {
+    "message": "AI FOCUS ADVICE"
+  },
+  "btnReturn": {
+    "message": "今すぐ作業・学習に戻る"
+  },
+  "btnContinue": {
+    "message": "理解してSNSを閲覧する"
+  }
+}

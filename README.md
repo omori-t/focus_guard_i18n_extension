@@ -54,10 +54,7 @@ Saat Anda membuka situs media sosial, FocusGuard menampilkan jeda layar penuh de
 
 ## Privacy
 
-FocusGuard does not collect personal data. See [PRIVACY.md](./PRIVACY.md).
-
-Public URL for Chrome Web Store (after GitHub Pages or raw link):  
-https://github.com/omori-t/focus_guard_i18n_extension/blob/main/PRIVACY.md
+FocusGuard does not collect personal data. See [Privacy Policy](https://gist.github.com/omori-t/b399c2c447ed49767145faa35c746996).
 
 ---
 

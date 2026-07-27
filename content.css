@@ -1,3 +1,13 @@
+/*
+ * ============================================================
+ * content.css — ポップアップの見た目（デザイン）を定義するファイル
+ * ============================================================
+ * content.js で作成されるポップアップのスタイルをここで設定している。
+ * 背景を暗くし、中央にカード型のメッセージを表示するデザイン。
+ * ============================================================
+ */
+
+/* --- 全画面オーバーレイ（画面全体を覆う暗い背景） --- */
 #focus-guard-overlay {
   position: fixed;
   top: 0;
@@ -6,7 +16,7 @@
   height: 100vh;
   background: rgba(15, 23, 42, 0.95);
   backdrop-filter: blur(8px);
-  z-index: 2147483647;
+  z-index: 2147483647; /* 他のどの要素よりも手前に表示する */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +24,7 @@
   color: #f8fafc;
 }
 
+/* --- メッセージカード（中央の白い枠） --- */
 .fg-card {
   background: #1e293b;
   border: 1px solid #334155;
@@ -25,6 +36,7 @@
   box-sizing: border-box;
 }
 
+/* --- バッジ（カード上部の小さなラベル「FOCUS ADVICE」） --- */
 .fg-badge {
   display: inline-block;
   background: #3b82f6;
@@ -37,6 +49,7 @@
   margin-bottom: 16px;
 }
 
+/* --- タイトル（アドバイスの見出し） --- */
 .fg-title {
   font-size: 20px;
   font-weight: 700;
@@ -45,6 +58,7 @@
   color: #ffffff;
 }
 
+/* --- 本文（アドバイスの説明テキスト） --- */
 .fg-body {
   font-size: 14px;
   line-height: 1.7;
@@ -52,12 +66,14 @@
   margin-bottom: 28px;
 }
 
+/* --- ボタンエリア（2つのボタンを縦に並べる） --- */
 .fg-actions {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
+/* --- 「作業・学習に戻る」ボタン（緑色・メインボタン） --- */
 .fg-btn-primary {
   background: #22c55e;
   color: #ffffff;
@@ -71,10 +87,12 @@
   width: 100%;
 }
 
+/* マウスを乗せたときに色が少し濃くなる */
 .fg-btn-primary:hover {
   background: #16a34a;
 }
 
+/* --- 「SNSを閲覧する」ボタン（灰色の枠線・サブボタン） --- */
 .fg-btn-secondary {
   background: transparent;
   color: #64748b;
@@ -86,11 +104,13 @@
   width: 100%;
 }
 
+/* 5秒待っている間は押せない状態（薄く表示） */
 .fg-btn-secondary:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
+/* 押せるようになった後、マウスを乗せたときの変化 */
 .fg-btn-secondary:not(:disabled):hover {
   color: #94a3b8;
   border-color: #64748b;

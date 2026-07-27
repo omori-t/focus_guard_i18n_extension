@@ -67,6 +67,20 @@ FocusGuard does not collect personal data. See [Privacy Policy](https://gist.git
 
 ---
 
+## ファイル構成の説明
+
+| ファイル | 役割 |
+|---|---|
+| `manifest.json` | Chrome拡張の設定書。拡張の名前、対象サイト、使うファイルを定義 |
+| `content.js` | メイン処理。ポップアップの表示・ボタン・カウントダウンを実行 |
+| `content.css` | ポップアップの見た目（色・サイズ・配置）を定義 |
+| `messages.js` | 表示するアドバイス文を5言語分定義し、言語を自動判定 |
+| `_locales/*/messages.json` | ボタンや拡張名などの短いUI文言を各言語で定義 |
+| `icons/` | 拡張のアイコン画像（16/48/128px） |
+| `PRIVACY.md` | プライバシーポリシー |
+
+---
+
 ## Install (Developer mode)
 
 1. Open `chrome://extensions`

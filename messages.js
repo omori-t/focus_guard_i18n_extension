@@ -1,12 +1,34 @@
+/*
+ * ============================================================
+ * messages.js — アドバイスメッセージの定義ファイル
+ * ============================================================
+ * ポップアップに表示する「集中を促すメッセージ」を
+ * 5言語分（日本語・英語・スペイン語・ポルトガル語・インドネシア語）定義している。
+ *
+ * 【処理の流れ】
+ * 1. ユーザーのブラウザの言語設定を取得する
+ * 2. 対応する言語のメッセージ一覧を選ぶ（未対応言語は英語になる）
+ * 3. content.js がこの中からランダムに1件を選んで表示する
+ *
+ * 【メッセージの構造】
+ * title: ポップアップの見出し（絵文字 + 短いタイトル）
+ * body:  ポップアップの本文（なぜSNSを止めるべきかの説明）
+ * ============================================================
+ */
+
+// --- ブラウザの言語を取得し、対応する言語キーを決定する ---
 const userLang = chrome.i18n.getUILanguage().toLowerCase();
 
-let langKey = 'en';
-if (userLang.startsWith('ja')) langKey = 'ja';
-else if (userLang.startsWith('es')) langKey = 'es';
-else if (userLang.startsWith('pt')) langKey = 'pt';
-else if (userLang.startsWith('id')) langKey = 'id';
+let langKey = 'en'; // デフォルトは英語
+if (userLang.startsWith('ja')) langKey = 'ja';       // 日本語
+else if (userLang.startsWith('es')) langKey = 'es';  // スペイン語
+else if (userLang.startsWith('pt')) langKey = 'pt';  // ポルトガル語
+else if (userLang.startsWith('id')) langKey = 'id';  // インドネシア語
 
+// --- 全言語のメッセージ一覧 ---
 const ALL_MESSAGES = {
+
+  // ========== 日本語 ==========
   ja: [
     { title: "🧠 5分間の「超集中」が作れる時間です", body: "今からSNSを10分眺めて得られる情報は明日には忘れています。この10分で単語を覚える、本を2ページ読む、ストレッチをする方があなたの資産になります。" },
     { title: "⚡ 他人の人生を消費していませんか？", body: "SNSは他人の成果や意見で溢れています。他人の人生を観察する時間を、あなた自身のスキルや知識を磨く時間に変えましょう。" },
@@ -19,6 +41,8 @@ const ALL_MESSAGES = {
     { title: "📚 10分あれば何ができますか？", body: "10分あれば記事を1本熟読する、アイデアをメモする、復習をするなど十分な学習が可能です。" },
     { title: "🔥 「あとでやる」を「今やる」に変える", body: "SNSへ逃げる誘惑を断ち切り、目の前のタスクに最初の一歩を踏み出しましょう。動き出せばやる気は後からついてきます。" }
   ],
+
+  // ========== 英語（English） ==========
   en: [
     { title: "🧠 Create 5 Minutes of Deep Focus", body: "Information gained from 10 minutes of scrolling will be forgotten tomorrow. Learning 5 words or reading 2 pages builds real lifetime assets." },
     { title: "⚡ Consuming Someone Else's Life?", body: "Your feed is filled with other people's achievements. Turn time spent watching others into time sharpening your own skills." },
@@ -31,6 +55,8 @@ const ALL_MESSAGES = {
     { title: "📚 What Can You Do in 10 Minutes?", body: "In 10 minutes, you can read a valuable article, draft an idea, or review notes. Turn idle time into self-growth." },
     { title: "🔥 Turn 'Later' into 'Right Now'", body: "Resist the urge to escape into social media. Take the first step on your current task—action creates motivation." }
   ],
+
+  // ========== スペイン語（Español） ==========
   es: [
     { title: "🧠 Crea 5 minutos de enfoque profundo", body: "Lo que veas en 10 minutos de redes se olvidará mañana. Dedicar ese tiempo a leer 2 páginas o aprender algo nuevo crea valor real." },
     { title: "⚡ ¿Consumiendo la vida de otros?", body: "Tu feed está lleno de logros ajenos. Transforma el tiempo de observación en tiempo para mejorar tus propias habilidades." },
@@ -43,6 +69,8 @@ const ALL_MESSAGES = {
     { title: "📚 ¿Qué puedes hacer en 10 minutos?", body: "En 10 minutos puedes leer un artículo clave, anotar ideas o repasar. Convierte la inactividad en aprendizaje." },
     { title: "🔥 Convierte 'luego' en 'ahora mismo'", body: "Resiste la tentación de escapar a las redes. Da el primer paso en tu tarea actual; la acción genera motivación." }
   ],
+
+  // ========== ポルトガル語（Português） ==========
   pt: [
     { title: "🧠 Crie 5 minutos de foco profundo", body: "O que você vê em 10 minutos de redes será esquecido amanhã. Ler 2 páginas ou aprender algo novo gera valor real." },
     { title: "⚡ Consumindo a vida dos outros?", body: "Seu feed está cheio de conquistas alheias. Transforme esse tempo em aprimoramento das suas próprias habilidades." },
@@ -55,6 +83,8 @@ const ALL_MESSAGES = {
     { title: "📚 O que você pode fazer em 10 minutos?", body: "Em 10 minutos você pode ler um artigo, anotar ideias ou estudar. Transforme o tempo vago em evolução." },
     { title: "🔥 Transforme 'depois' em 'agora'", body: "Resista à tentação de escapar para as redes sociais. Dê o primeiro passo na sua tarefa; a ação gera motivação." }
   ],
+
+  // ========== インドネシア語（Bahasa Indonesia） ==========
   id: [
     { title: "🧠 Ciptakan 5 Menit Fokus Mendalam", body: "Informasi dari 10 menit medsos akan dilupakan besok. Belajar 5 kata baru atau membaca 2 halaman buku memberi nilai nyata." },
     { title: "⚡ Mengonsumsi Kehidupan Orang Lain?", body: "Linimasa Anda penuh dengan pencapaian orang lain. Ubah waktu melihat orang lain menjadi waktu mengasah skill sendiri." },
@@ -69,4 +99,5 @@ const ALL_MESSAGES = {
   ]
 };
 
+// --- 決定した言語のメッセージ一覧を、content.js から使える変数にセットする ---
 const AI_MESSAGES = ALL_MESSAGES[langKey];

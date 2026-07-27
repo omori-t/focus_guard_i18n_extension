@@ -14,6 +14,8 @@ Chrome 拡張機能 — SNS アクセス時にワンクッション置き、集�
 
 無意識に SNS を開いたとき、全画面のアドバイスを表示します。「今すぐ作業・学習に戻る」か、5秒後に有効になる「理解して SNS を閲覧する」を選べます。ページをリロードすると、再度表示されます。
 
+「今すぐ作業・学習に戻る」を選ぶと、このタブは `about:blank` に移動します。Esc キーでもオーバーレイを閉じられます。
+
 ---
 
 ## English
@@ -21,6 +23,8 @@ Chrome 拡張機能 — SNS アクセス時にワンクッション置き、集�
 **Before social media takes your time, turn it into time to reflect, understand yourself, and take action.**
 
 When you open a social site, FocusGuard shows a full-screen pause with a short focus tip. Choose “Back to Work / Study Now,” or wait 5 seconds to continue. Reloading the page shows the overlay again.
+
+“Back to Work / Study Now” navigates this tab to `about:blank`. You can also dismiss the overlay with Esc.
 
 ---
 
@@ -45,6 +49,24 @@ Ao abrir uma rede social, o FocusGuard exibe uma pausa em tela cheia com uma dic
 **Sebelum media sosial mengambil waktu Anda, ubah menjadi waktu untuk merenung, memahami diri sendiri, dan bertindak.**
 
 Saat Anda membuka situs media sosial, FocusGuard menampilkan jeda layar penuh dengan saran fokus singkat. Pilih kembali ke kerja/belajar sekarang, atau tunggu 5 detik untuk melanjutkan. Memuat ulang halaman akan menampilkan overlay lagi.
+
+---
+
+## Privacy
+
+FocusGuard does not collect personal data. See [PRIVACY.md](./PRIVACY.md).
+
+Public URL for Chrome Web Store (after GitHub Pages or raw link):  
+https://github.com/omori-t/focus_guard_i18n_extension/blob/main/PRIVACY.md
+
+---
+
+## Chrome Web Store notes
+
+- **Single purpose:** Show a mindful pause / focus tip before using selected social media sites.
+- **Sites:** `x.com`, `twitter.com`, `youtube.com`, `instagram.com`, `reddit.com`
+- **No remote code / no tracking**
+- Store assets: `icons/` and `store/screenshot-1280x800.png`
 
 ---
 

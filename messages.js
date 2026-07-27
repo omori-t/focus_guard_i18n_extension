@@ -52,7 +52,7 @@ const ALL_MESSAGES = {
     { title: "💡 De consumidor para criador", body: "Deixe de ser um consumidor passivo de informações. Torne-se o criador das suas próprias habilidades e projetos." },
     { title: "⏳ O tempo não pode ser comprado", body: "Dinheiro se recupera, mas os próximos 10 minutos nunca voltarão. Proteja seu bem mais precioso agora." },
     { title: "🧘 Dê ao seu cérebro um descanso real", body: "O excesso de informação cansa a mente. Feche a aba, respire fundo e volte ao que realmente importa." },
-    { title: "📚 O que você pode fazer em 10 minutos?", body: "Em 10 minutos você pode ler um artigo, anota ideias ou estudar. Transforme o tempo vago em evolução." },
+    { title: "📚 O que você pode fazer em 10 minutos?", body: "Em 10 minutos você pode ler um artigo, anotar ideias ou estudar. Transforme o tempo vago em evolução." },
     { title: "🔥 Transforme 'depois' em 'agora'", body: "Resista à tentação de escapar para as redes sociais. Dê o primeiro passo na sua tarefa; a ação gera motivação." }
   ],
   id: [
@@ -64,7 +64,7 @@ const ALL_MESSAGES = {
     { title: "💡 Dari Konsumen Menjadi Pencipta", body: "Berhentilah menjadi konsumen pasif dari konten orang lain. Mulailah mencipta dan mengembangkan keahlian Anda sendiri." },
     { title: "⏳ Waktu Adalah Aset Yang Tak Terbeli", body: "Uang bisa dicari lagi, tetapi 10 menit yang berlalu tidak akan kembali. Lindungi nilai waktu Anda sekarang." },
     { title: "🧘 Berikan Otak Anda Istirahat Nyata", body: "Informasi berlebih dari medsos membuat otak lelah. Tutup tab, tarik napas dalam, dan kembalilah fokus." },
-    { title: "📚 Apa Yang Bisa Dilakukan dalam 10 Menit?", body: "Dalam 10分 Anda bisa membaca artikel bermanfaat, mencatat ide, atau belajar. Ubah waktu luang jadi investasi diri." },
+    { title: "📚 Apa Yang Bisa Dilakukan dalam 10 Menit?", body: "Dalam 10 menit Anda bisa membaca artikel bermanfaat, mencatat ide, atau belajar. Ubah waktu luang jadi investasi diri." },
     { title: "🔥 Ubah 'Nanti' Menjadi 'Sekarang'", body: "Lawan godaan untuk kabur ke media sosial. Ambil langkah pertama pada tugas Anda—aksi akan mendatangkan motivasi." }
   ]
 };

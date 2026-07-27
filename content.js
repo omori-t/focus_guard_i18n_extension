@@ -61,13 +61,21 @@
     });
 
     continueBtn.addEventListener("click", () => {
-      userDismissed = true;
-      if (timerId) {
-        clearInterval(timerId);
-        timerId = null;
-      }
-      overlay.remove();
+      dismissOverlay(overlay);
     });
+  }
+
+  function dismissOverlay(overlay) {
+    userDismissed = true;
+    if (timerId) {
+      clearInterval(timerId);
+      timerId = null;
+    }
+    if (overlay) overlay.remove();
+    else {
+      const existing = document.getElementById("focus-guard-overlay");
+      if (existing) existing.remove();
+    }
   }
 
   function ensureOverlay() {
@@ -108,6 +116,15 @@
   }
 
   boot();
+
+  window.addEventListener(
+    "keydown",
+    (event) => {
+      if (event.key !== "Escape" || userDismissed) return;
+      dismissOverlay();
+    },
+    true
+  );
 
   // bfcache restore keeps the previous JS state; force show again
   window.addEventListener("pageshow", (event) => {

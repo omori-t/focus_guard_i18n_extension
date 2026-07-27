@@ -1,17 +1,17 @@
 {
   "appName": {
-    "message": "FocusGuard - Turn SNS Time into Self-Growth"
+    "message": "FocusGuard - Turn Social Media Time into Self-Growth"
   },
   "appDesc": {
     "message": "Before social media takes your time, turn it into time to reflect, understand yourself, and take action."
   },
   "badgeText": {
-    "message": "AI FOCUS ADVICE"
+    "message": "FOCUS ADVICE"
   },
   "btnReturn": {
     "message": "Back to Work / Study Now"
   },
   "btnContinue": {
-    "message": "Continue to SNS"
+    "message": "Continue to social media"
   }
 }

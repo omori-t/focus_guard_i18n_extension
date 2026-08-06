@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "FocusGuard - Ubah Waktu Medsos Menjadi Pengembangan Diri"
+    "message": "FeedBrake - Jeda Sebelum Medsos"
   },
   "appDesc": {
     "message": "Sebelum media sosial mengambil waktu Anda, ubah menjadi waktu untuk merenung, memahami diri sendiri, dan bertindak."
   },
   "badgeText": {
-    "message": "SARAN FOKUS"
+    "message": "FEED BRAKE"
   },
   "btnReturn": {
     "message": "Kembali Bekerja / Belajar"

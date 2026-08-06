@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "FocusGuard - Convierte el tiempo de redes en crecimiento"
+    "message": "FeedBrake - Pausa antes de las redes"
   },
   "appDesc": {
     "message": "Antes de que las redes sociales te quiten el tiempo, conviértelo en tiempo para reflexionar, entenderte a ti mismo y actuar."
   },
   "badgeText": {
-    "message": "CONSEJO DE CONCENTRACIÓN"
+    "message": "FEED BRAKE"
   },
   "btnReturn": {
     "message": "Volver al trabajo / estudio"

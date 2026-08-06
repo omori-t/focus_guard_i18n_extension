@@ -1,4 +1,4 @@
-# FocusGuard
+# FeedBrake
 
 Chrome 拡張機能 — SNS アクセス時にワンクッション置き、集中と自己投資へ意識を戻します。
 
@@ -22,7 +22,7 @@ Chrome 拡張機能 — SNS アクセス時にワンクッション置き、集�
 
 **Before social media takes your time, turn it into time to reflect, understand yourself, and take action.**
 
-When you open a social site, FocusGuard shows a full-screen pause with a short focus tip. Choose “Back to Work / Study Now,” or wait 5 seconds to continue. Reloading the page shows the overlay again.
+When you open a social site, FeedBrake shows a full-screen pause with a short focus tip. Choose “Back to Work / Study Now,” or wait 5 seconds to continue. Reloading the page shows the overlay again.
 
 “Back to Work / Study Now” navigates this tab to `about:blank`. You can also dismiss the overlay with Esc.
 
@@ -32,7 +32,7 @@ When you open a social site, FocusGuard shows a full-screen pause with a short f
 
 **Antes de que las redes sociales te quiten el tiempo, conviértelo en tiempo para reflexionar, entenderte a ti mismo y actuar.**
 
-Al abrir una red social, FocusGuard muestra una pausa a pantalla completa con un consejo breve. Puedes volver al trabajo o al estudio de inmediato, o esperar 5 segundos para continuar. Al recargar la página, el aviso vuelve a aparecer.
+Al abrir una red social, FeedBrake muestra una pausa a pantalla completa con un consejo breve. Puedes volver al trabajo o al estudio de inmediato, o esperar 5 segundos para continuar. Al recargar la página, el aviso vuelve a aparecer.
 
 ---
 
@@ -40,7 +40,7 @@ Al abrir una red social, FocusGuard muestra una pausa a pantalla completa con un
 
 **Antes que as redes sociais tomem o seu tempo, transforme-o em tempo para refletir, compreender a si mesmo e agir.**
 
-Ao abrir uma rede social, o FocusGuard exibe uma pausa em tela cheia com uma dica rápida. Você pode voltar ao trabalho ou aos estudos agora, ou esperar 5 segundos para continuar. Ao recarregar a página, o aviso aparece novamente.
+Ao abrir uma rede social, o FeedBrake exibe uma pausa em tela cheia com uma dica rápida. Você pode voltar ao trabalho ou aos estudos agora, ou esperar 5 segundos para continuar. Ao recarregar a página, o aviso aparece novamente.
 
 ---
 
@@ -48,13 +48,13 @@ Ao abrir uma rede social, o FocusGuard exibe uma pausa em tela cheia com uma dic
 
 **Sebelum media sosial mengambil waktu Anda, ubah menjadi waktu untuk merenung, memahami diri sendiri, dan bertindak.**
 
-Saat Anda membuka situs media sosial, FocusGuard menampilkan jeda layar penuh dengan saran fokus singkat. Pilih kembali ke kerja/belajar sekarang, atau tunggu 5 detik untuk melanjutkan. Memuat ulang halaman akan menampilkan overlay lagi.
+Saat Anda membuka situs media sosial, FeedBrake menampilkan jeda layar penuh dengan saran fokus singkat. Pilih kembali ke kerja/belajar sekarang, atau tunggu 5 detik untuk melanjutkan. Memuat ulang halaman akan menampilkan overlay lagi.
 
 ---
 
 ## Privacy
 
-FocusGuard does not collect personal data. See [Privacy Policy](https://gist.github.com/omori-t/b399c2c447ed49767145faa35c746996).
+FeedBrake does not collect personal data. See [Privacy Policy](https://gist.github.com/omori-t/b399c2c447ed49767145faa35c746996).
 
 ---
 

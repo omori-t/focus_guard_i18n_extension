@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "FocusGuard - Turn Social Media Time into Self-Growth"
+    "message": "FeedBrake - Pause Before Social Media"
   },
   "appDesc": {
     "message": "Before social media takes your time, turn it into time to reflect, understand yourself, and take action."
   },
   "badgeText": {
-    "message": "FOCUS ADVICE"
+    "message": "FEED BRAKE"
   },
   "btnReturn": {
     "message": "Back to Work / Study Now"

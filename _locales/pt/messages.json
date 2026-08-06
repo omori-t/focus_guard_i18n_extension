@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "FocusGuard - Transforme o tempo em redes em evolução"
+    "message": "FeedBrake - Pausa antes das redes"
   },
   "appDesc": {
     "message": "Antes que as redes sociais tomem o seu tempo, transforme-o em tempo para refletir, compreender a si mesmo e agir."
   },
   "badgeText": {
-    "message": "CONSELHO DE FOCO"
+    "message": "FEED BRAKE"
   },
   "btnReturn": {
     "message": "Voltar ao trabalho / estudo"

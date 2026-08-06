@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "FocusGuard - SNSを自己投資の時間へ"
+    "message": "FeedBrake - SNSを開く前の一呼吸"
   },
   "appDesc": {
     "message": "SNSに人生の時間を費やしてしまう前に、自分自身のことを考え、理解し、行動する時間へ"
   },
   "badgeText": {
-    "message": "FOCUS ADVICE"
+    "message": "FEED BRAKE"
   },
   "btnReturn": {
     "message": "今すぐ作業・学習に戻る"

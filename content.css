@@ -8,7 +8,7 @@
  */
 
 /* --- 全画面オーバーレイ（画面全体を覆う暗い背景） --- */
-#focus-guard-overlay {
+#feed-brake-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 
-/* --- バッジ（カード上部の小さなラベル「FOCUS ADVICE」） --- */
+/* --- バッジ（カード上部の小さなラベル「FEED BRAKE」） --- */
 .fg-badge {
   display: inline-block;
   background: #3b82f6;

@@ -44,7 +44,7 @@
   function mountOverlay() {
     // すでに閲覧を許可済み or すでに表示中なら何もしない
     if (userDismissed) return;
-    if (document.getElementById("focus-guard-overlay")) return;
+    if (document.getElementById("feed-brake-overlay")) return;
     if (!document.documentElement) return;
 
     // messages.js で定義されたアドバイス一覧からランダムに1件選ぶ
@@ -57,7 +57,7 @@
 
     // ポップアップのHTML構造を作成
     const overlay = document.createElement("div");
-    overlay.id = "focus-guard-overlay";
+    overlay.id = "feed-brake-overlay";
     overlay.innerHTML = `
       <div class="fg-card">
         <div class="fg-badge">${badgeText}</div>
@@ -123,7 +123,7 @@
     }
     if (overlay) overlay.remove();
     else {
-      const existing = document.getElementById("focus-guard-overlay");
+      const existing = document.getElementById("feed-brake-overlay");
       if (existing) existing.remove();
     }
   }
@@ -152,7 +152,7 @@
 
     const observer = new MutationObserver(() => {
       if (userDismissed) return;
-      if (document.getElementById("focus-guard-overlay")) return;
+      if (document.getElementById("feed-brake-overlay")) return;
       if (remountScheduled) return;
       remountScheduled = true;
       requestAnimationFrame(() => {

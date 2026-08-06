@@ -1,14 +1,14 @@
-# Privacy Policy — FocusGuard
+# Privacy Policy — FeedBrake
 
 Last updated: 2026-07-27
 
 ## Overview
 
-FocusGuard is a Chrome extension that shows a local focus reminder when you visit selected social media sites (X/Twitter, YouTube, Instagram, Reddit).
+FeedBrake is a Chrome extension that shows a local focus reminder when you visit selected social media sites (X/Twitter, YouTube, Instagram, Reddit).
 
 ## Data collection
 
-FocusGuard does **not** collect, store, transmit, or sell personal data.
+FeedBrake does **not** collect, store, transmit, or sell personal data.
 
 - No accounts
 - No analytics
@@ -28,7 +28,7 @@ The extension may clear a legacy `sessionStorage` key used by older versions. It
 
 ## Children’s privacy
 
-FocusGuard is not directed at children and does not knowingly collect children’s data.
+FeedBrake is not directed at children and does not knowingly collect children’s data.
 
 ## Changes
 
